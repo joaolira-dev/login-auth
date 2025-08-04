@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap');
+@import "tailwindcss";
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+html, body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.animated-gradient {
+  background: linear-gradient(270deg, #7c3aed, #6366f1, #a78bfa, #7c3aed);
+  background-size: 400% 400%;
+  animation: gradientBG 8s ease infinite;
+}
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
